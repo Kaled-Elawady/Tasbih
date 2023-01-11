@@ -4,6 +4,8 @@ import tkinter as tk
 main = tk.Tk()
 main.geometry("300x200")
 main.resizable(width="False", height="False")
+main.title("tasbih")
+main.iconbitmap("icon/tasbih.ico")
 
 int_var = tk.IntVar()
 num = 0
